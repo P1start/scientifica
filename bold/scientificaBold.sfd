@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1528931301
-ModificationTime: 1572076455
+ModificationTime: 1572085667
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -44,8 +44,9 @@ NameList: AGL For New Fonts
 DisplaySize: 11
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 9633 57 15
-BeginChars: 65536 976
+WinInfo: 9570 110 20
+OnlyBitmaps: 1
+BeginChars: 65536 996
 
 StartChar: space
 Encoding: 32 32 0
@@ -6009,9 +6010,8 @@ EndChar
 
 StartChar: heart
 Encoding: 9829 9829 745
-Width: 454
+Width: 1000
 VWidth: 0
-Flags: W
 LayerCount: 2
 EndChar
 
@@ -7835,9 +7835,9 @@ StartChar: uni266D
 Encoding: 9837 9837 973
 Width: 454
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
-Fore
+Back
 Image: 5 7 3 20 0 ffffffff 0 818 142.857 142.857 0
 s!fc[s!fc[s!fc[s.4.2s!fc[s!fc[s.4.2s!fc[s.4.2s.4.2s!fc[s.4.2s.4.2s.4.2s!fc[
 s.4.2s.4.2s!fc[s.4.2s.4.2s!fc[s.4.2s.4.2s.4.2s!fc[s.4.2s.4.2s!fc[s.4.2s!fc[
@@ -7860,8 +7860,148 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 EndChar
+
+StartChar: uni263D
+Encoding: 9789 9789 976
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
+
+StartChar: uni263E
+Encoding: 9790 9790 977
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
+
+StartChar: uni263F
+Encoding: 9791 9791 978
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
+
+StartChar: female
+Encoding: 9792 9792 979
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
+
+StartChar: uni2641
+Encoding: 9793 9793 980
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
+
+StartChar: male
+Encoding: 9794 9794 981
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
+
+StartChar: uni2643
+Encoding: 9795 9795 982
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
+
+StartChar: uni2644
+Encoding: 9796 9796 983
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
+
+StartChar: uni2645
+Encoding: 9797 9797 984
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
+
+StartChar: uni2646
+Encoding: 9798 9798 985
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
+
+StartChar: uni2647
+Encoding: 9799 9799 986
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
+
+StartChar: uni2609
+Encoding: 9737 9737 987
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
+
+StartChar: spade
+Encoding: 9824 9824 988
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
+
+StartChar: uni2662
+Encoding: 9826 9826 989
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
+
+StartChar: club
+Encoding: 9827 9827 990
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
+
+StartChar: uni2664
+Encoding: 9828 9828 991
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
+
+StartChar: diamond
+Encoding: 9830 9830 992
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
+
+StartChar: uni26E2
+Encoding: 9954 9954 993
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
+
+StartChar: uni2605
+Encoding: 9733 9733 994
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
+
+StartChar: uni2606
+Encoding: 9734 9734 995
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
 EndChars
-BitmapFont: 11 977 9 2 1 nerdypepper
+BitmapFont: 11 996 9 2 1 nerdypepper
 BDFStartProperties: 39
 FONT 1 "-nerdypepper-scientifica-bold-r-normal--11-80-100-100-C-50-ISO10646-1"
 SIZE 1 "11 75 75"
@@ -9392,9 +9532,9 @@ BDFChar: 742 9729 5 0 4 2 4
 ?uYl@
 BDFChar: 743 9730 5 0 4 -1 6
 E;92N+J>Am
-BDFChar: 744 9825 5 0 4 0 4
+BDFChar: 744 9825 5 0 4 1 5
 :oK1H+92BA
-BDFChar: 745 9829 5 0 4 0 4
+BDFChar: 745 9829 5 0 4 1 5
 ;#'g)+92BA
 BDFChar: 746 9833 11 0 1 0 5
 5X7S"^q]pM
@@ -9851,10 +9991,50 @@ BDFChar: 971 61679 5 1 3 -1 5
 BDFChar: 972 61680 5 0 2 -1 5
 5_&iB!.[<7
 BDFChar: 973 9837 5 0 2 0 6
-J:N1.TYQ'X
+J:QRNTYQ'X
 BDFChar: 974 9838 5 0 2 0 6
 J:QRNi#j-B
 BDFChar: 975 9839 5 0 4 0 6
 &6No(E6piM
+BDFChar: 976 9789 5 0 4 0 6
+i%QQ--nsQZ
+BDFChar: 977 9790 5 0 4 0 6
+3+/DPTO9_Z
+BDFChar: 978 9791 5 0 4 0 7
+LiA0+E$0*B
+BDFChar: 979 9792 5 0 4 0 6
+E/9<h+E/G'
+BDFChar: 980 9793 5 0 4 0 6
++E/HBLkp!M
+BDFChar: 981 9794 5 0 4 0 6
+3#F&OOH<iM
+BDFChar: 982 9795 5 0 4 0 6
+#\]SB./4&J
+BDFChar: 983 9796 5 0 4 0 6
+5i=nH84ZPW
+BDFChar: 984 9797 5 0 4 0 6
++K5(6+Aa0\
+BDFChar: 985 9798 5 0 4 0 6
++K25X+E/G'
+BDFChar: 986 9799 5 0 3 0 6
+i/j&YJ:R+h
+BDFChar: 987 9737 5 0 4 1 5
+E/:HKDu]k<
+BDFChar: 988 9824 5 0 4 0 6
++E7,NW$$$Z
+BDFChar: 989 9826 5 0 4 1 5
++Adkj+92BA
+BDFChar: 990 9827 5 0 4 0 6
+E,bUIp`OMU
+BDFChar: 991 9828 5 0 0 0 0
+z
+BDFChar: 992 9830 5 0 4 1 5
++E7*p+92BA
+BDFChar: 993 9954 5 0 4 0 7
++E48uLo?,K
+BDFChar: 994 9733 5 0 4 0 5
++<^GuE/4Jo
+BDFChar: 995 9734 5 0 4 0 5
++<^GUE/4Jo
 EndBitmapFont
 EndSplineFont
